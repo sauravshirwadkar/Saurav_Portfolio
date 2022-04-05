@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
+
+body {
+  font-family: 'Roboto Condensed';
+}
+
+.fa-user-circle {
+	padding-right: 1em;
+}
+
+.navbar-brand {
+	font-weight: normal;
+}
+
+.bg-dark {
+  background-color: transparent !important;
+}
+
+#header {
+  background: url("../../assests/images/project-bg-4.jpg")
+    no-repeat center center fixed;
+  display: table;
+  height: 100vh;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.headerText {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+  text-shadow: 2px 2px 2px black;
+}
+
+.padding {
+  padding: 2em;
+  text-align: justify;
+}
+
+.heading {
+  text-align: center;
+  padding-bottom: .75em;
+  color: #fff;
+}
+
+.headingDark {
+  text-align: center;
+  padding-bottom: .75em;
+  color: #222;
+}
+
+.images {
+  max-width: 100%;
+}
+
+
+#sectionTwo {
+  background: url("../../assests/images/project-bg-3.jpg")
+    no-repeat center center fixed;
+  display: table;
+  padding: 1em;
+  height: 100vh;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.contactUs {
+  font-size: 3em;
+}
+
+.fa-facebook-f {
+  color: #3b5998;
+}
+
+.fa-facebook-f:hover {
+  color: #ccc;
+}
+
+.fa-twitter {
+  color: #1da1f2;
+}
+
+.fa-twitter:hover {
+  color: #ccc;
+}
+
+.fa-instagram {
+  color: #cd486b;
+}
+
+.fa-instagram:hover {
+  color: #ccc;
+}
+
+.fa-linkedin-in {
+  color: #0077b5;
+}
+
+.fa-linkedin-in:hover {
+  color: #ccc;
+}
+
+.text {
+  color: #aaa;
+  text-align: center;
+  font-size: 0.75em;
+  padding: 2em;
+}
+
+footer {
+  background-color: #444;
+  margin-bottom: 0 !important;
+}
+
+
+
+/*Media Queries*/
+@media (max-width: 768px) {
+  .head-text h1 {
+    font-size: 200%;
+  }
+ 
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.parallax {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+
+
+
+.p-1{
+  background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(../../assests/images/coorg-astro-self-gallery-3.jpg);
+}
+
+.p-2 {
+  background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(../../assests/images/neowise.jpg);
+
+}
+
+.p-3 {
+  background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(../../assests/images/eclipse-collage.jpg);
+}
+
+.p-4{
+  background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(../../assests/images/moon-crescent.jpg);
+} 
+
+
+
+ */
